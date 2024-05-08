@@ -1,0 +1,158 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Add styles for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;   
+}
+
+/* Add styles for the main content */
+main {
+    margin: 20px;
+}
+
+/* Add styles for links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*
+a:hover {
+        text-decoration: underline;
+}
+*/
+
+/* Add styles for buttons */
+/*
+button {
+    background-color: white;
+    color: black;
+    padding: 30px 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover::before {
+    transform: scaleX(1);
+}
+*/
+
+button {
+    background-color: white;
+    color: black;
+    padding: 30px 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+#tocButton::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+#tocButton:hover::before {
+    transform: scaleX(1);
+}
+
+#homepageTitle, #tableOfContents {
+    display: inline-block;
+    align-items: center; /* Vertically center align */  
+    background-color: white;
+}
+
+#homepageTitle {
+    /* Add your styles for the homepage title here */
+    padding: 10px;
+}
+
+#titleButton:hover {
+    text-decoration: none;
+}
+
+#tableOfContents {
+    /* Add your styles for the table of contents here */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*#titleBanner {
+    border-bottom: 1px solid gray;
+}
+*/
+
+#onboardingBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center align */
+    background-color: lightcoral;
+    color: white;
+    height: 30px; /* Adjust the height as needed */
+    font-size: 14px; /* Add the desired font size */
+}
+
+#tutorialLink {
+    color: white;
+    text-decoration: underline;
+}
+
+#tutorialLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#homepageText {
+    display: inline-block;
+    align-items: center;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+footer {
+    border-top: 1px solid gray;
+}

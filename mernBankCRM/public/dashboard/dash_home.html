@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Add your CSS stylesheets and JavaScript files here -->
+<link rel="stylesheet" type="text/css" href="dash_home.css">
+<script src="script.js"></script>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="titleBanner">
+        <a href="../home/home.html"><button id = "titleButton" style="display: inline; border: none; background: none; padding: 0; margin: 0; font: inherit; cursor: pointer; outline: inherit;">
+            <h1 id="homepageTitle">BRM Assistant</h1>
+        </button></a>
+
+        <table id="tableOfContents">
+            <tr>
+                <td><a href="../dashboard/dash_home.html"><button id = tocButton>Dashboard</button></a></td>
+                <td><a href="../relationships/rel_home.html"><button id = tocButton>Relationships</button></a></td>
+                <td><a href="../advising/advis_home.html"><button id = tocButton>Advising</button></a></td>
+                <td><a href="../productCreation/pc_home.html"><button id = tocButton>Product Creation</button></a></td>
+           </tr>
+        </table>
+    </div>
+    <div id="onboardingBanner">
+        <h3>To learn how to use a feature, try our <a href="tutorial.html" id="tutorialLink">tutorials</a>.</h3>
+    </div>
+    <div id="homepageContent">
+        <div id = "homepageText">
+            <h2>Your Dashboard</h2>  
+        </div>
+        <div class = 'dashTile' id = "qPerformance">
+            <h3 class = 'dTileTitle'>Quarterly Performance</h3>
+            <div id = "qPerfChart">
+            </div>
+        </div>
+        <div class = "dashTile" id = "openTasks">
+            <h3 class = 'dTileTitle'>Open Tasks</h3>
+            <div id = "openTaskList">
+            </div>
+        </div>
+        <div class = 'dashTile' id = 'winLoss'>
+            <h3 class = 'dTileTitle'>Win Loss Summary</h3>
+            <div id = 'winLossChart'>
+            </div>
+        </div>
+        <div class = 'dashTile' id = 'leads'>
+            <h3 class = 'dTileTitle'>Leads</h3>
+            <div id = 'leadsInfo'>
+            </div>
+        </div>
+        <div class = 'dashTile' id = 'upcomingDeadlines'>
+            <h3 class = 'dTileTitle'>Upcoming Deadlines</h3>
+            <div id = 'upDeadlineList'>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
+<footer>
+    <!-- Add your footer content here -->
+    <p>&copy; 2024 BCRM. All rights reserved.</p>
+    <p>Contact information: zachjacob96@gmail.com</p>
+</footer>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+
+<!-- Add your CSS stylesheets and JavaScript files here -->
+<link rel="stylesheet" type="text/css" href="{% static 'home/style4.css' %}">
+<script src="script.js"></script>
+<html>
+<head>
+    <title>My Homepage</title>
+</head>
+<body>
+    <div id="titleBanner">
+        <h1 id="homepageTitle">BRM Assistant</h1>
+
+        <table id="tableOfContents">
+            <tr>
+                <td><a href="../../../dashboard/index.html"><button>Dashboard</button></a></td>
+                <td><a href="index.html"><button>Relationships</button></a></td>
+                <td><a href="../../../advising/templates/advising/index.html"><button>Advising</button></a></td>
+                <td><a href="../../../productCreation/templates/productCreation/index.html"><button>Product Creation</button></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="onboardingBanner">
+        <h3>To learn how to use a feature, try our <a href="tutorial.html" id="tutorialLink">tutorials</a>.</h3>
+    </div>
+    <div id="homepageContent" class="image-container">
+        <div id = "homepageText">
+            <h2>Welcome to BRM Assistant</h2>
+            <p>Select a tool in the upper right corner to get started!</p>    
+        </div>
+    </div> 
+</body>
+</html>
+<footer>
+    <!-- Add your footer content here -->
+    <p>&copy; 2024 BCRM. All rights reserved.</p>
+    <p>Contact information: zachjacob96@gmail.com</p>
+</footer>
